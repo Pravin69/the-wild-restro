@@ -10,7 +10,7 @@
 <p align="center">
   • <a href="#key-features">Key Features</a> 
   • <a href="#how-to-use">How To Use</a> 
-  • <a href="https://the-wild-restro.vercel.app">Live Demo</a> 
+  • <a href="#live-demo">Live Demo</a> 
   </p>
 
 <p align="center">
@@ -73,6 +73,17 @@ To clone and run this application, you'll need [Git](https://git-scm.com) and [N
 
 # Start app in terminal
   npm run dev
+```
+
+## Live demo
+
+<a  href="https://the-wild-restro.vercel.app">Live-app</a>
+
+For demo you can use this account
+
+```
+# Email address : test@example.com
+# Password : 789456123
 ```
 
 ## You may also like... 🙂
