@@ -50,7 +50,8 @@
   - Set default configurations for the application, including maximum guest booking, breakfast price, and maximum/minimum night bookings.
 
 - **Backend and Caching** :-
-  - Utilize Supabase for the backend infrastructure. - Implement React-Query for efficient caching and optimized data fetching.
+  - Utilize Supabase for the backend infrastructure.
+  - Implement React-Query for efficient caching and optimized data fetching.
 
 ## How To Use
 
