@@ -1,28 +1,81 @@
-# The Wild Restro - React Learning Project
+<h1 align="center">
+	Wild Restro 🏨
+</h1>
+<h4 align="center">Wild Restro is an internal web application designed to streamline hotel management for restaurants, enabling employees to efficiently handle bookings, cabins, and guest-related tasks. This comprehensive system provides a range of features to enhance the operational efficiency of the hotel.</h4>
 
-## Project Overview
+<p align="center">
+    <img src="https://img.shields.io/badge/%E2%9D%A4-Made%20with%20Love-blue"  alt="Gitter">
+</p>
 
-"The Wild Restro" is a restaurant application developed primarily for the purpose of learning React and related technologies. In this project, I had the opportunity to work with a variety of React libraries and technologies, including:
+<p align="center">
+  • <a href="#key-features">Key Features</a> 
+  • <a href="#how-to-use">How To Use</a> 
+  • <a href="https://the-wild-restro.vercel.app">Live Demo</a> 
+  </p>
 
-- **Styled Components:** Creating visually appealing and responsive user interfaces for the application.
-
-- **React Query:** Efficiently managing data fetching and state management for a smoother user experience.
-
-- **React Hook Forms:** Handling complex forms and user inputs using React's hooks.
-
-- **React Router:** Implementing client-side routing and navigation for a seamless user experience.
-
-- **Super Base:** Setting up a backend with a complete database from scratch using Super Base, enabling exploration of full-stack development concepts.
+<p align="center">
+<img src="https://github.com/Pravin69/the-wild-restro/blob/main/demo/wild-app-ss.png?raw=true" alt="Wild Restro Capture" style="max-width: 100% !important">
+</p>
 
 ## Key Features
 
-As I explored and experimented with "The Wild Restro" project, I encountered and implemented several key features, including:
+- **Dashboard Insights** :-
 
-- Browsing a list of restaurants.
-- Viewing detailed restaurant information, including menus.
-- Making reservations for specific dates and times.
-- Leaving reviews and ratings for restaurants.
-- Exploring user authentication and authorization.
-- Building and managing a backend database with Super Base.
+  - View graphical representations and sales statistics of the restaurant.
+  - Access summaries of sales and guest check-ins for the last 7, 30, and 90 days.
 
+- **Guest Management** :-
 
+  - List all guests based on their status: check-in, check-out, and unconfirmed.
+  - Sort guest lists by date and easily manipulate booking statuses, including deletion.
+
+- **Cabin Management** :-
+
+  - Add, delete, or update cabins with details such as capacity, price, and discounts.
+
+- **Employee Accounts** :-
+
+  - Create, modify, or delete employee accounts specifically for managing cabin applications.
+
+- **Employee Profile** :-
+
+  - Allow employees to update their personal data, password, and profile photo.
+
+- **Dark and Light Mode** :-
+
+  - Provide users with the option to choose between dark and light modes for a personalized experience.
+
+- **Default Settings** :-
+
+  - Set default configurations for the application, including maximum guest booking, breakfast price, and maximum/minimum night bookings.
+
+- **Backend and Caching** :-
+  - Utilize Supabase for the backend infrastructure. - Implement React-Query for efficient caching and optimized data fetching.
+
+## How To Use
+
+To clone and run this application, you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer. From your command line :
+
+```
+# Clone this repository
+  git clone https://github.com/Pravin69/the-wild-restro.git
+
+# Go into the repository
+  cd the-wild-restro
+
+# Install dependencies
+  npm install
+
+# Set up Supabase for backend services.
+
+# Configure environment variables by creating .env file in the  directory and copy the content of env.example file in .env file, and fill it with your own secrets.
+  cp env.example .env
+
+# Start app in terminal
+  npm run dev
+```
+
+## You may also like... 🙂
+
+- [Apna-Shop](https://github.com/Pravin69/mern-ecommerce) - An e-commerce platform
+- [Share-and-Fun](https://github.com/Pravin69/Share-and-Fun-Web-app) - A social media web-app
